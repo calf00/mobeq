@@ -1,0 +1,40 @@
+h2 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgb(234, 175, 221);
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(251, 209, 209);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #c0ffa7; 
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(149, 32, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #61c65f;
+    color: rgb(80, 44, 124);
+}
+
+.content {
+    padding: 40px;
+    max-width: 400px;
+    margin: 40px ;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
